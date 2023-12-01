@@ -143,7 +143,7 @@ output = get_estimates(y=y_data, 			      # Count Data					, AUTO
                        lag=10, 				      # Lag to detect the change point, DEFAULT: 5
                        duration_index=100, 	# Fitting duration after peak	, DEFAULT: 100
                        filename=filename, 	# filename for plotting			, DEFAULT: ""
-                       num_peak=1)			    # The number of peak, 			, DEFAULT: 1
+                       )			 
 #%% --------------------- END FITTING -----------------------------------
 fitted = output['fitted']
 upper = output['upper_ci']
